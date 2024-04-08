@@ -25,7 +25,7 @@
 #include "lv_examples.h"
 #include "lv_conf.h"
 #include "stm32f4xx_hal.h"
-#include "lv_drivers/display/fbdev.h"
+#include "fbdev.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -143,26 +143,29 @@ int main(void)
   MX_USB_HOST_Init();
   /* USER CODE BEGIN 2 */
 
-  lv_init();
-  //fbdev_init();
-  /* Создание дисплея LVGL */
-      lv_disp_drv_t disp_drv;
-      lv_disp_drv_init(&disp_drv);
-      //disp_drv.flush_cb = fbdev_flush;
-      lv_disp_drv_register(&disp_drv);
+  /*
+   lv_init();
+  fbdev_init();
+  // Создание дисплея LVGL
+	 lv_disp_drv_t disp_drv;
+	 lv_disp_drv_init(&disp_drv);
+	 disp_drv.flush_cb = fbdev_flush;
+	 lv_disp_drv_register(&disp_drv);
 
-      /* Создание стиля для текста */
-      static lv_style_t style;
-      lv_style_init(&style);
-      lv_style_set_text_color(&style,lv_color_black());
+  // Создание стиля для текста
+	static lv_style_t style;
+	lv_style_init(&style);
+	lv_style_set_text_color(&style,lv_color_black());
 
-      /* Создание метки с текстом */
-      lv_obj_t *label = lv_label_create(lv_scr_act());
-      lv_label_set_text(label, "Hello, World!");
-      lv_obj_align(label, LV_ALIGN_CENTER, 0, 0);
-     // lv_obj_add_style(label,&style, lv_style_selector_t );
+  // Создание метки с текстом
+	lv_obj_t *label = lv_label_create(lv_scr_act());
+	lv_label_set_text(label, "Hello, World!");
+	lv_obj_align(label, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_add_style(label,&style, lv_style_selector_t );
+		  */
 
 
+  lv_example_get_started_1();
 
   /* USER CODE BEGIN WHILE */
   while (1)
