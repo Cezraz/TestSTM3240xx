@@ -22,10 +22,10 @@
 #include "fatfs.h"
 #include "usb_host.h"
 #include "lvgl.h"
-#include "lv_examples.h"
-#include "lv_conf.h"
+#include "examples/lv_examples.h"
 #include "stm32f4xx_hal.h"
-#include "fbdev.h"
+#include "stm324xg_eval_lcd.h"
+#include "stm324xg_eval_ts.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -64,6 +64,9 @@ I2C_HandleTypeDef hi2c1;
 
 SD_HandleTypeDef hsd;
 
+SPI_HandleTypeDef hspi2;
+DMA_HandleTypeDef hdma_spi2_tx;
+
 UART_HandleTypeDef huart3;
 
 HCD_HandleTypeDef hhcd_USB_OTG_HS;
@@ -76,12 +79,13 @@ SRAM_HandleTypeDef hsram3;
 //Frame buffers
 /*Static or global buffer(s). The second buffer is optional*/
 static lv_color_t buf_1[3200]; //TODO: Chose a buffer size. DISPLAY_WIDTH * 10 is one suggestion.
-//static lv_color_t buf_2[BUFF_SIZE];
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
+static void MX_DMA_Init(void);
 static void MX_ADC3_Init(void);
 static void MX_DAC_Init(void);
 static void MX_DCMI_Init(void);
@@ -91,6 +95,7 @@ static void MX_I2C1_Init(void);
 static void MX_SDIO_SD_Init(void);
 static void MX_USART3_UART_Init(void);
 static void MX_USB_OTG_HS_HCD_Init(void);
+static void MX_SPI2_Init(void);
 void MX_USB_HOST_Process(void);
 
 /* USER CODE BEGIN PFP */
@@ -130,6 +135,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_ADC3_Init();
   MX_DAC_Init();
   MX_DCMI_Init();
@@ -141,40 +147,53 @@ int main(void)
   MX_USB_OTG_HS_HCD_Init();
   MX_FATFS_Init();
   MX_USB_HOST_Init();
+  MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
+  BSP_LCD_Init();
 
-  /*
-   lv_init();
-  fbdev_init();
-  // Создание дисплея LVGL
-	 lv_disp_drv_t disp_drv;
-	 lv_disp_drv_init(&disp_drv);
-	 disp_drv.flush_cb = fbdev_flush;
-	 lv_disp_drv_register(&disp_drv);
+    /* Initialize the touch screen */
+    BSP_TS_Init(BSP_LCD_GetXSize(), BSP_LCD_GetYSize());
 
-  // Создание стиля для текста
-	static lv_style_t style;
-	lv_style_init(&style);
-	lv_style_set_text_color(&style,lv_color_black());
+    /* Initialize LittlevGL */
+    lv_init();
+    Display_Init();
 
-  // Создание метки с текстом
-	lv_obj_t *label = lv_label_create(lv_scr_act());
-	lv_label_set_text(label, "Hello, World!");
-	lv_obj_align(label, LV_ALIGN_CENTER, 0, 0);
-	lv_obj_add_style(label,&style, lv_style_selector_t );
-		  */
+    static lv_style_t style_shadow;
+        lv_style_init(&style_shadow);
+        lv_style_set_text_opa(&style_shadow, LV_OPA_30);
+        lv_style_set_text_color(&style_shadow, lv_color_black());
 
+        /*Create a label for the shadow first (it's in the background)*/
+        lv_obj_t * shadow_label = lv_label_create(lv_scr_act());
+        lv_obj_add_style(shadow_label, &style_shadow, 0);
 
-  lv_example_get_started_1();
+        /*Create the main label*/
+        lv_obj_t * main_label = lv_label_create(lv_scr_act());
+        lv_label_set_text(main_label, "A simple method to create\n"
+                          "shadows on a text.\n"
+                          "It even works with\n\n"
+                          "newlines     and spaces.");
 
+        /*Set the same text for the shadow label*/
+        lv_label_set_text(shadow_label, lv_label_get_text(main_label));
+
+        /*Position the main label*/
+        lv_obj_align(main_label, LV_ALIGN_CENTER, 0, 0);
+
+        /*Shift the second label down and to the right by 2 pixel*/
+        lv_obj_align_to(shadow_label, main_label, LV_ALIGN_TOP_LEFT, 2, 2);
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
 
     /* USER CODE END WHILE */
-   // MX_USB_HOST_Process();
-    lv_task_handler();
+    MX_USB_HOST_Process();
     HAL_Delay(5);
+    lv_timer_handler();
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -463,6 +482,44 @@ static void MX_SDIO_SD_Init(void)
 }
 
 /**
+  * @brief SPI2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_SPI2_Init(void)
+{
+
+  /* USER CODE BEGIN SPI2_Init 0 */
+
+  /* USER CODE END SPI2_Init 0 */
+
+  /* USER CODE BEGIN SPI2_Init 1 */
+
+  /* USER CODE END SPI2_Init 1 */
+  /* SPI2 parameter configuration*/
+  hspi2.Instance = SPI2;
+  hspi2.Init.Mode = SPI_MODE_MASTER;
+  hspi2.Init.Direction = SPI_DIRECTION_1LINE;
+  hspi2.Init.DataSize = SPI_DATASIZE_8BIT;
+  hspi2.Init.CLKPolarity = SPI_POLARITY_LOW;
+  hspi2.Init.CLKPhase = SPI_PHASE_1EDGE;
+  hspi2.Init.NSS = SPI_NSS_SOFT;
+  hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16;
+  hspi2.Init.FirstBit = SPI_FIRSTBIT_MSB;
+  hspi2.Init.TIMode = SPI_TIMODE_DISABLE;
+  hspi2.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+  hspi2.Init.CRCPolynomial = 10;
+  if (HAL_SPI_Init(&hspi2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN SPI2_Init 2 */
+
+  /* USER CODE END SPI2_Init 2 */
+
+}
+
+/**
   * @brief USART3 Initialization Function
   * @param None
   * @retval None
@@ -530,6 +587,22 @@ static void MX_USB_OTG_HS_HCD_Init(void)
 }
 
 /**
+  * Enable DMA controller clock
+  */
+static void MX_DMA_Init(void)
+{
+
+  /* DMA controller clock enable */
+  __HAL_RCC_DMA1_CLK_ENABLE();
+
+  /* DMA interrupt init */
+  /* DMA1_Stream4_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Stream4_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Stream4_IRQn);
+
+}
+
+/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -537,6 +610,8 @@ static void MX_USB_OTG_HS_HCD_Init(void)
 static void MX_GPIO_Init(void)
 {
   GPIO_InitTypeDef GPIO_InitStruct = {0};
+/* USER CODE BEGIN MX_GPIO_Init_1 */
+/* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOE_CLK_ENABLE();
@@ -665,6 +740,8 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(MII_INT_GPIO_Port, &GPIO_InitStruct);
 
+/* USER CODE BEGIN MX_GPIO_Init_2 */
+/* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* FSMC initialization function */

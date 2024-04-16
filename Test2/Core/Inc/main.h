@@ -327,6 +327,7 @@ void Error_Handler(void);
 #define ULPI_D4_GPIO_Port GPIOB
 #define MII_INT_Pin GPIO_PIN_14
 #define MII_INT_GPIO_Port GPIOB
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
