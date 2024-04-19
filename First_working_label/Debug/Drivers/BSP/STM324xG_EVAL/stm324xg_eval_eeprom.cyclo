@@ -1,0 +1,6 @@
+stm324xg_eval_eeprom.c:99:10:BSP_EEPROM_Init	2
+stm324xg_eval_eeprom.c:127:10:BSP_EEPROM_ReadBuffer	2
+stm324xg_eval_eeprom.c:153:10:BSP_EEPROM_WriteBuffer	19
+stm324xg_eval_eeprom.c:320:17:EEPROM_WritePage	3
+stm324xg_eval_eeprom.c:355:17:EEPROM_WaitEepromStandbyState	2
+stm324xg_eval_eeprom.c:370:13:BSP_EEPROM_TIMEOUT_UserCallback	1

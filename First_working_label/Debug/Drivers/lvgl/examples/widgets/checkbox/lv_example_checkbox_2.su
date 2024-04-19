@@ -1,0 +1,5 @@
+h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:286:26:lv_pct	16	static
+h:\cube_workspace\test3\drivers\lvgl\src/core/lv_disp.h:182:26:lv_scr_act	8	static
+../Drivers/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c:9:13:radio_event_handler	32	static
+../Drivers/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c:28:13:radiobutton_create	24	static
+../Drivers/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c:40:6:lv_example_checkbox_2	64	static

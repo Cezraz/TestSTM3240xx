@@ -1,0 +1,5 @@
+stm324xg_eval_ts.c:97:9:BSP_TS_Init	3
+stm324xg_eval_ts.c:127:9:BSP_TS_ITConfig	1
+stm324xg_eval_ts.c:139:9:BSP_TS_ITGetStatus	1
+stm324xg_eval_ts.c:150:9:BSP_TS_GetState	8
+stm324xg_eval_ts.c:198:6:BSP_TS_ITClear	1
