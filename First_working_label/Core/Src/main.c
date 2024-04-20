@@ -39,12 +39,12 @@ static void SystemClock_Config(void);
 static void event_handler(lv_event_t * e)
 {
     lv_event_code_t code = lv_event_get_code(e);
+    lv_obj_t * obj = lv_event_get_target(e);
+    if(code == LV_EVENT_VALUE_CHANGED) {
+        uint32_t id = lv_btnmatrix_get_selected_btn(obj);
+        const char * txt = lv_btnmatrix_get_btn_text(obj, id);
 
-    if(code == LV_EVENT_CLICKED) {
-        LV_LOG_USER("Clicked");
-    }
-    else if(code == LV_EVENT_VALUE_CHANGED) {
-        LV_LOG_USER("Toggled");
+        LV_LOG_USER("%s was pressed\n", txt);
     }
 }
 
@@ -72,7 +72,7 @@ int main(void)
   /*##-1- Initialize the SRAM ################################################*/
   BSP_SRAM_Init();  
 
-  
+  BSP_TS_Init(BSP_LCD_GetXSize(), BSP_LCD_GetYSize());
   /*##-2- Initialize the LCD #################################################*/
  //BSP_LCD_Init();
 
@@ -135,7 +135,7 @@ int main(void)
       lv_obj_center(btn1);
 
       lv_obj_t * label = lv_label_create(btn1);
-      lv_label_set_text(label, "Button");
+      lv_label_set_text(label, "Nazhme menya");
       lv_obj_center(label);
      //BSP_LCD_Clear(LCD_COLOR_GREEN);
 /* USER CODE END 2 */

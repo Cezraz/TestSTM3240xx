@@ -53,6 +53,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm324xg_eval_ts.h"
+#include "lvgl.h"
 
 /** @addtogroup BSP
   * @{
@@ -72,6 +73,8 @@
 static TS_DrvTypeDef *ts_driver;
 static uint16_t ts_x_boundary, ts_y_boundary; 
 static uint8_t  ts_orientation;
+static lv_indev_drv_t indev_drv;
+static TS_StateTypeDef  TS_State;
 /**
   * @}
   */
@@ -94,10 +97,33 @@ static uint8_t  ts_orientation;
   * @param  ySize: Maximum Y size of the TS area on LCD  
   * @retval TS_OK if all initializations are OK. Other value if error.
   */
+
+void my_input_read(lv_indev_drv_t * drv, lv_indev_data_t*data)
+{
+	TS_StateTypeDef ts_state;
+	//uint16_t  x,y;
+	BSP_TS_GetState(&ts_state);
+	//stmpe811_ts_drv.GetXY(TS_I2C_ADDRESS, &x, &y);
+	if(ts_state.TouchDetected) {
+	    data->state = LV_INDEV_STATE_PR;
+	    data->point.x = ts_state.x;
+	    data->point.y = ts_state.y;
+	  } else {
+	    data->state = LV_INDEV_STATE_REL;
+	  }
+}
+
+
 uint8_t BSP_TS_Init(uint16_t xSize, uint16_t ySize)
 {
   uint8_t ret = TS_ERROR;
   
+  lv_indev_drv_init(&indev_drv);      /*Basic initialization*/
+  indev_drv.type = LV_INDEV_TYPE_POINTER;
+  indev_drv.read_cb = my_input_read;
+  /*Register the driver in LVGL and save the created input device object*/
+  lv_indev_drv_register(&indev_drv);
+
   if(stmpe811_ts_drv.ReadID(TS_I2C_ADDRESS) == STMPE811_ID)
   {
     /* Initialize the TS driver structure */
@@ -115,7 +141,10 @@ uint8_t BSP_TS_Init(uint16_t xSize, uint16_t ySize)
     /* Initialize the LL TS Driver */
     ts_driver->Init(TS_I2C_ADDRESS);
     ts_driver->Start(TS_I2C_ADDRESS);
-  }  
+  }
+
+
+
   
   return ret;
 }

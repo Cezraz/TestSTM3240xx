@@ -4,6 +4,7 @@
 "./Core/Src/syscalls.o"
 "./Core/Src/sysmem.o"
 "./Core/Src/system_stm32f4xx.o"
+"./Core/Src/ts_calibration.o"
 "./Core/Startup/startup_stm32f407ighx.o"
 "./Drivers/BSP/Components/dp83848/dp83848.o"
 "./Drivers/BSP/Components/exc7200/exc7200.o"
