@@ -1,4 +1,4 @@
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:110:20:lv_area_copy	16	static
+../Drivers/lvgl/src/core/../misc/../font/../misc/lv_area.h:110:20:lv_area_copy	16	static
 ../Drivers/lvgl/src/core/../misc/lv_style.h:448:30:lv_style_get_prop_inlined	56	static
 ../Drivers/lvgl/src/core/lv_obj_style.h:92:20:lv_obj_remove_style_all	16	static
 ../Drivers/lvgl/src/core/lv_obj_style_gen.h:1:26:lv_obj_get_style_width	24	static

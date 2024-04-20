@@ -23,6 +23,7 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 Core/Src \
+Core/Startup \
 Drivers/BSP/Components/dp83848 \
 Drivers/BSP/Components/exc7200 \
 Drivers/BSP/Components/ft3x67 \
@@ -184,4 +185,8 @@ Drivers/lvgl/tests/src \
 Drivers/lvgl/tests/src/test_cases \
 Drivers/lvgl/tests/src/test_fonts \
 Drivers/lvgl/tests/unity \
+FreeRTOS/Source \
+FreeRTOS/Source/portable/GCC/ARM_CM4F \
+FreeRTOS/Source/portable/MemMang \
+Utilities/Fonts \
 

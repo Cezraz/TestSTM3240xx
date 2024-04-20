@@ -34,8 +34,8 @@ Drivers/BSP/STM324xG_EVAL/stm324xg_eval.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.h \
  ../Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/stmpe811.h \
- h:\cube_workspace\test3\drivers\bsp\components\common\ts.h \
- h:\cube_workspace\test3\drivers\bsp\components\common\io.h
+ ../Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/../Common/ts.h \
+ ../Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/../Common/io.h
 ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -70,5 +70,5 @@ Drivers/BSP/STM324xG_EVAL/stm324xg_eval.o: \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.h:
 ../Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/stmpe811.h:
-h:\cube_workspace\test3\drivers\bsp\components\common\ts.h:
-h:\cube_workspace\test3\drivers\bsp\components\common\io.h:
+../Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/../Common/ts.h:
+../Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/../Common/io.h:

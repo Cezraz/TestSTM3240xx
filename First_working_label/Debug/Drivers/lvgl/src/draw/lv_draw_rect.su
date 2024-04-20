@@ -1,5 +1,5 @@
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:123:26:lv_area_get_width	16	static
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:133:26:lv_area_get_height	16	static
+../Drivers/lvgl/src/draw/../misc/../font/../misc/lv_area.h:123:26:lv_area_get_width	16	static
+../Drivers/lvgl/src/draw/../misc/../font/../misc/lv_area.h:133:26:lv_area_get_height	16	static
 ../Drivers/lvgl/src/draw/../misc/lv_color.h:588:26:lv_color_make	16	static
 ../Drivers/lvgl/src/draw/../misc/lv_color.h:689:26:lv_color_white	8	static
 ../Drivers/lvgl/src/draw/../misc/lv_color.h:693:26:lv_color_black	8	static

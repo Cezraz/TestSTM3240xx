@@ -12,7 +12,7 @@ Drivers/lvgl/src/misc/lv_mem.o: ../Drivers/lvgl/src/misc/lv_mem.c \
  ../Drivers/lvgl/src/misc/../draw/../lv_conf_internal.h \
  ../Drivers/lvgl/src/misc/../draw/lv_img_buf.h \
  ../Drivers/lvgl/src/misc/../draw/../misc/lv_color.h \
- h:\cube_workspace\test3\drivers\lvgl\src\lv_conf_internal.h \
+ ../Drivers/lvgl/src/misc/../draw/../misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/misc/../draw/../misc/lv_assert.h \
  ../Drivers/lvgl/src/misc/../draw/../misc/lv_log.h \
  ../Drivers/lvgl/src/misc/../draw/../misc/lv_types.h \
@@ -42,7 +42,7 @@ Drivers/lvgl/src/misc/lv_mem.o: ../Drivers/lvgl/src/misc/lv_mem.c \
 ../Drivers/lvgl/src/misc/../draw/../lv_conf_internal.h:
 ../Drivers/lvgl/src/misc/../draw/lv_img_buf.h:
 ../Drivers/lvgl/src/misc/../draw/../misc/lv_color.h:
-h:\cube_workspace\test3\drivers\lvgl\src\lv_conf_internal.h:
+../Drivers/lvgl/src/misc/../draw/../misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/misc/../draw/../misc/lv_assert.h:
 ../Drivers/lvgl/src/misc/../draw/../misc/lv_log.h:
 ../Drivers/lvgl/src/misc/../draw/../misc/lv_types.h:

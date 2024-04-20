@@ -1,4 +1,4 @@
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:110:20:lv_area_copy	16	static
+../Drivers/lvgl/src/widgets/../core/../misc/../font/../misc/lv_area.h:110:20:lv_area_copy	16	static
 ../Drivers/lvgl/src/widgets/../core/../misc/lv_color.h:588:26:lv_color_make	16	static
 ../Drivers/lvgl/src/widgets/../core/../misc/lv_color.h:593:26:lv_color_hex	24	static
 ../Drivers/lvgl/src/widgets/../core/../misc/lv_color.h:689:26:lv_color_white	8	static

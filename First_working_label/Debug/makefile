@@ -9,6 +9,10 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Utilities/Fonts/subdir.mk
+-include FreeRTOS/Source/portable/MemMang/subdir.mk
+-include FreeRTOS/Source/portable/GCC/ARM_CM4F/subdir.mk
+-include FreeRTOS/Source/subdir.mk
 -include Drivers/lvgl/tests/unity/subdir.mk
 -include Drivers/lvgl/tests/src/test_fonts/subdir.mk
 -include Drivers/lvgl/tests/src/test_cases/subdir.mk
@@ -170,6 +174,7 @@ RM := rm -rf
 -include Drivers/BSP/Components/ft3x67/subdir.mk
 -include Drivers/BSP/Components/exc7200/subdir.mk
 -include Drivers/BSP/Components/dp83848/subdir.mk
+-include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
 -include objects.mk
 
@@ -193,34 +198,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := Test3
+BUILD_ARTIFACT_NAME := First_working_label
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-Test3.elf \
+First_working_label.elf \
 
 MAP_FILES += \
-Test3.map \
+First_working_label.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-Test3.list \
+First_working_label.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: Test3.elf secondary-outputs
+main-build: First_working_label.elf secondary-outputs
 
 # Tool invocations
-Test3.elf Test3.map: $(OBJS) $(USER_OBJS) H:\Cube_WorkSpace\Test3\STM32F407IGHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Test3.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"H:\Cube_WorkSpace\Test3\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+First_working_label.elf First_working_label.map: $(OBJS) $(USER_OBJS) C:\Users\Admin\git\TestSTM3240xx\First_working_label\STM32F407IGHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "First_working_label.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Admin\git\TestSTM3240xx\First_working_label\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="First_working_label.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -229,14 +234,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Test3.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Test3.list"
+First_working_label.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "First_working_label.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) Test3.elf Test3.list Test3.map default.size.stdout
+	-$(RM) First_working_label.elf First_working_label.list First_working_label.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

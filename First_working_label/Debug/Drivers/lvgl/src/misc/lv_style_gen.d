@@ -7,7 +7,7 @@ Drivers/lvgl/src/misc/lv_style_gen.o: \
  ../Drivers/lvgl/lv_conf.h \
  ../Drivers/lvgl/src/misc/../font/lv_symbol_def.h \
  ../Drivers/lvgl/src/misc/../font/../misc/lv_area.h \
- h:\cube_workspace\test3\drivers\lvgl\src\lv_conf_internal.h \
+ ../Drivers/lvgl/src/misc/../font/../misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/misc/lv_color.h \
  ../Drivers/lvgl/src/misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/misc/lv_assert.h ../Drivers/lvgl/src/misc/lv_log.h \
@@ -23,7 +23,7 @@ Drivers/lvgl/src/misc/lv_style_gen.o: \
 ../Drivers/lvgl/lv_conf.h:
 ../Drivers/lvgl/src/misc/../font/lv_symbol_def.h:
 ../Drivers/lvgl/src/misc/../font/../misc/lv_area.h:
-h:\cube_workspace\test3\drivers\lvgl\src\lv_conf_internal.h:
+../Drivers/lvgl/src/misc/../font/../misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/misc/lv_color.h:
 ../Drivers/lvgl/src/misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/misc/lv_assert.h:

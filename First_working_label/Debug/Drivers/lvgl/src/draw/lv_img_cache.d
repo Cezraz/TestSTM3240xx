@@ -19,9 +19,9 @@ Drivers/lvgl/src/draw/lv_img_cache.o: \
  ../Drivers/lvgl/src/draw/lv_draw_img.h \
  ../Drivers/lvgl/src/draw/../misc/lv_style.h \
  ../Drivers/lvgl/src/draw/../misc/../font/lv_font.h \
- h:\cube_workspace\test3\drivers\lvgl\src\lv_conf_internal.h \
+ ../Drivers/lvgl/src/draw/../misc/../font/../lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/../misc/../font/lv_symbol_def.h \
- h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h \
+ ../Drivers/lvgl/src/draw/../misc/../font/../misc/lv_area.h \
  ../Drivers/lvgl/src/draw/../misc/lv_color.h \
  ../Drivers/lvgl/src/draw/../misc/lv_area.h \
  ../Drivers/lvgl/src/draw/../misc/lv_anim.h \
@@ -37,11 +37,11 @@ Drivers/lvgl/src/draw/lv_img_cache.o: \
  ../Drivers/lvgl/src/draw/../misc/../hal/lv_hal_tick.h \
  ../Drivers/lvgl/src/draw/../misc/../draw/lv_img_cache.h \
  ../Drivers/lvgl/src/draw/../misc/../draw/lv_draw_mask.h \
- h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h \
- h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_color.h \
- h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_math.h \
+ ../Drivers/lvgl/src/draw/../misc/../draw/../misc/lv_area.h \
+ ../Drivers/lvgl/src/draw/../misc/../draw/../misc/lv_color.h \
+ ../Drivers/lvgl/src/draw/../misc/../draw/../misc/lv_math.h \
  ../Drivers/lvgl/src/draw/../misc/../core/lv_obj_pos.h \
- h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h
+ ../Drivers/lvgl/src/draw/../misc/../core/../misc/lv_area.h
 ../Drivers/lvgl/src/draw/../misc/lv_assert.h:
 ../Drivers/lvgl/src/draw/../misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/../misc/../lv_conf_kconfig.h:
@@ -62,9 +62,9 @@ Drivers/lvgl/src/draw/lv_img_cache.o: \
 ../Drivers/lvgl/src/draw/lv_draw_img.h:
 ../Drivers/lvgl/src/draw/../misc/lv_style.h:
 ../Drivers/lvgl/src/draw/../misc/../font/lv_font.h:
-h:\cube_workspace\test3\drivers\lvgl\src\lv_conf_internal.h:
+../Drivers/lvgl/src/draw/../misc/../font/../lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/../misc/../font/lv_symbol_def.h:
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:
+../Drivers/lvgl/src/draw/../misc/../font/../misc/lv_area.h:
 ../Drivers/lvgl/src/draw/../misc/lv_color.h:
 ../Drivers/lvgl/src/draw/../misc/lv_area.h:
 ../Drivers/lvgl/src/draw/../misc/lv_anim.h:
@@ -80,8 +80,8 @@ h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:
 ../Drivers/lvgl/src/draw/../misc/../hal/lv_hal_tick.h:
 ../Drivers/lvgl/src/draw/../misc/../draw/lv_img_cache.h:
 ../Drivers/lvgl/src/draw/../misc/../draw/lv_draw_mask.h:
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_color.h:
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_math.h:
+../Drivers/lvgl/src/draw/../misc/../draw/../misc/lv_area.h:
+../Drivers/lvgl/src/draw/../misc/../draw/../misc/lv_color.h:
+../Drivers/lvgl/src/draw/../misc/../draw/../misc/lv_math.h:
 ../Drivers/lvgl/src/draw/../misc/../core/lv_obj_pos.h:
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:
+../Drivers/lvgl/src/draw/../misc/../core/../misc/lv_area.h:

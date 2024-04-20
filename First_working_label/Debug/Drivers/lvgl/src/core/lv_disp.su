@@ -1,10 +1,10 @@
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_anim.h:126:20:lv_anim_set_var	16	static
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_anim.h:138:20:lv_anim_set_exec_cb	16	static
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_anim.h:148:20:lv_anim_set_time	16	static
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_anim.h:158:20:lv_anim_set_delay	16	static
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_anim.h:169:20:lv_anim_set_values	24	static
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_anim.h:206:20:lv_anim_set_start_cb	16	static
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_anim.h:227:20:lv_anim_set_ready_cb	16	static
+../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_anim.h:126:20:lv_anim_set_var	16	static
+../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_anim.h:138:20:lv_anim_set_exec_cb	16	static
+../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_anim.h:148:20:lv_anim_set_time	16	static
+../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_anim.h:158:20:lv_anim_set_delay	16	static
+../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_anim.h:169:20:lv_anim_set_values	24	static
+../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_anim.h:206:20:lv_anim_set_start_cb	16	static
+../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_anim.h:227:20:lv_anim_set_ready_cb	16	static
 ../Drivers/lvgl/src/core/lv_disp.h:182:26:lv_scr_act	8	static
 ../Drivers/lvgl/src/core/lv_disp.c:50:12:lv_disp_get_scr_act	16	static
 ../Drivers/lvgl/src/core/lv_disp.c:67:12:lv_disp_get_scr_prev	16	static

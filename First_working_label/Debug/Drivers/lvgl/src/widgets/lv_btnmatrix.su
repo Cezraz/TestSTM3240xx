@@ -1,6 +1,6 @@
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:110:20:lv_area_copy	16	static
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:123:26:lv_area_get_width	16	static
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:133:26:lv_area_get_height	16	static
+../Drivers/lvgl/src/widgets/../core/../misc/../font/../misc/lv_area.h:110:20:lv_area_copy	16	static
+../Drivers/lvgl/src/widgets/../core/../misc/../font/../misc/lv_area.h:123:26:lv_area_get_width	16	static
+../Drivers/lvgl/src/widgets/../core/../misc/../font/../misc/lv_area.h:133:26:lv_area_get_height	16	static
 ../Drivers/lvgl/src/widgets/../core/lv_obj_style_gen.h:103:26:lv_obj_get_style_pad_top	24	static
 ../Drivers/lvgl/src/widgets/../core/lv_obj_style_gen.h:109:26:lv_obj_get_style_pad_bottom	24	static
 ../Drivers/lvgl/src/widgets/../core/lv_obj_style_gen.h:115:26:lv_obj_get_style_pad_left	24	static

@@ -4,7 +4,7 @@
 ../Drivers/lvgl/examples/anim/../../src/misc/lv_anim.h:169:20:lv_anim_set_values	24	static
 ../Drivers/lvgl/examples/anim/../../src/misc/lv_anim.h:196:20:lv_anim_set_path_cb	16	static
 ../Drivers/lvgl/examples/anim/../../src/misc/lv_anim.h:288:20:lv_anim_set_early_apply	16	static
-h:\cube_workspace\test3\drivers\lvgl\src\core\lv_obj_pos.h:199:20:lv_obj_center	16	static
+../Drivers/lvgl/examples/anim/../../src/hal/../draw/sw/../../core/lv_obj_pos.h:199:20:lv_obj_center	16	static
 ../Drivers/lvgl/examples/anim/../../src/core/lv_disp.h:182:26:lv_scr_act	8	static
 ../Drivers/lvgl/examples/anim/../../src/widgets/lv_slider.h:106:20:lv_slider_set_range	24	static
 ../Drivers/lvgl/examples/anim/../../src/widgets/lv_slider.h:130:23:lv_slider_get_value	16	static

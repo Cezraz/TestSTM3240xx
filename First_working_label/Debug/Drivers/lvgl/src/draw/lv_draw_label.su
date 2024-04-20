@@ -1,4 +1,4 @@
-h:\cube_workspace\test3\drivers\lvgl\src\misc\lv_area.h:123:26:lv_area_get_width	16	static
+../Drivers/lvgl/src/draw/../misc/../font/../misc/lv_area.h:123:26:lv_area_get_width	16	static
 ../Drivers/lvgl/src/draw/../misc/../font/lv_font.h:124:26:lv_font_get_line_height	16	static
 ../Drivers/lvgl/src/draw/../misc/lv_mem.h:194:44:lv_memcpy_small	32	static
 ../Drivers/lvgl/src/draw/../misc/lv_color.h:588:26:lv_color_make	16	static

@@ -1,4 +1,4 @@
-h:\cube_workspace\test3\drivers\lvgl\src\font\lv_font.h:124:26:lv_font_get_line_height	16	static
+../Drivers/lvgl/src/widgets/../core/../misc/../font/lv_font.h:124:26:lv_font_get_line_height	16	static
 ../Drivers/lvgl/src/widgets/../core/lv_obj_style_gen.h:85:26:lv_obj_get_style_transform_angle	24	static
 ../Drivers/lvgl/src/widgets/../core/lv_obj_style_gen.h:103:26:lv_obj_get_style_pad_top	24	static
 ../Drivers/lvgl/src/widgets/../core/lv_obj_style_gen.h:109:26:lv_obj_get_style_pad_bottom	24	static
