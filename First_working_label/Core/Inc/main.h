@@ -24,6 +24,8 @@
 #include "stm324xg_eval.h"
 #include "stm324xg_eval_lcd.h"
 #include "stm324xg_eval_sram.h"
+#include "freeRTOS.h"
+#include "FreeRTOSConfig.h"
 //#include "stm324xg_eval_camera.h"
 
 /* Exported types ------------------------------------------------------------*/
