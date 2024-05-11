@@ -131,37 +131,37 @@ Drivers/lvgl/src/core/lv_obj.o: ../Drivers/lvgl/src/core/lv_obj.c \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/font/lv_font_fmt_txt.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/font/lv_font.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_arc.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../lv_conf_internal.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../core/lv_obj.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btn.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_img.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../misc/lv_fs.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../draw/lv_draw.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_fs.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\draw\lv_draw.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_label.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../font/lv_font.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../font/lv_symbol_def.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../misc/lv_txt.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\font\lv_font.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\font\lv_symbol_def.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_txt.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_line.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_table.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_label.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_checkbox.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_bar.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../misc/lv_anim.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_anim.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btn.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_slider.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_bar.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btnmatrix.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_dropdown.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../widgets/lv_label.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\widgets\lv_label.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_roller.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_textarea.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_canvas.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../widgets/lv_img.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../draw/lv_draw_img.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\widgets\lv_img.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\draw\lv_draw_img.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_switch.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/draw/lv_draw.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/lv_api_map.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/../lvgl.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\lvgl.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/extra/lv_extra.h \
  ../Drivers/lvgl/src/core/../extra/libs/qrcode/lv_qrcode.h \
  ../Drivers/lvgl/src/core/../extra/libs/qrcode/../../../lvgl.h \
@@ -369,37 +369,37 @@ Drivers/lvgl/src/core/lv_obj.o: ../Drivers/lvgl/src/core/lv_obj.c \
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/font/lv_font_fmt_txt.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/font/lv_font.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_arc.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../lv_conf_internal.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../core/lv_obj.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btn.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_img.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../misc/lv_fs.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../draw/lv_draw.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_fs.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\draw\lv_draw.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_label.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../font/lv_font.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../font/lv_symbol_def.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../misc/lv_txt.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\font\lv_font.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\font\lv_symbol_def.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_txt.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_line.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_table.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_label.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_checkbox.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_bar.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../misc/lv_anim.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_anim.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btn.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_slider.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_bar.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btnmatrix.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_dropdown.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../widgets/lv_label.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\widgets\lv_label.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_roller.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_textarea.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_canvas.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../widgets/lv_img.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../draw/lv_draw_img.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\widgets\lv_img.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\draw\lv_draw_img.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_switch.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/draw/lv_draw.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/lv_api_map.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/../lvgl.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\lvgl.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/extra/lv_extra.h:
 ../Drivers/lvgl/src/core/../extra/libs/qrcode/lv_qrcode.h:
 ../Drivers/lvgl/src/core/../extra/libs/qrcode/../../../lvgl.h:

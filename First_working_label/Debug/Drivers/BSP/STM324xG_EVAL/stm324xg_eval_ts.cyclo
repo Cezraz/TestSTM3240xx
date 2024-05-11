@@ -1,6 +1,0 @@
-stm324xg_eval_ts.c:101:6:my_input_read	2
-stm324xg_eval_ts.c:117:9:BSP_TS_Init	3
-stm324xg_eval_ts.c:156:9:BSP_TS_ITConfig	1
-stm324xg_eval_ts.c:168:9:BSP_TS_ITGetStatus	1
-stm324xg_eval_ts.c:179:9:BSP_TS_GetState	8
-stm324xg_eval_ts.c:227:6:BSP_TS_ITClear	1

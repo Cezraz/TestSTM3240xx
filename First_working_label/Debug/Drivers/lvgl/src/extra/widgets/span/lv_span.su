@@ -1,6 +1,6 @@
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:123:26:lv_area_get_width	16	static
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\font\lv_font.h:124:26:lv_font_get_line_height	16	static
-../Drivers/lvgl/src/extra/widgets/span/../../../../src/hal/../draw/../misc/lv_txt.h:165:20:_lv_txt_is_break_char	24	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:123:26:lv_area_get_width	16	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\font\lv_font.h:124:26:lv_font_get_line_height	16	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_txt.h:165:20:_lv_txt_is_break_char	24	static
 ../Drivers/lvgl/src/extra/widgets/span/../../../../src/core/lv_obj_style_gen.h:1:26:lv_obj_get_style_width	24	static
 ../Drivers/lvgl/src/extra/widgets/span/../../../../src/core/lv_obj_style_gen.h:19:26:lv_obj_get_style_height	24	static
 ../Drivers/lvgl/src/extra/widgets/span/../../../../src/core/lv_obj_style_gen.h:445:26:lv_obj_get_style_text_color	24	static

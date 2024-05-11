@@ -1,6 +1,6 @@
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:110:20:lv_area_copy	16	static
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:123:26:lv_area_get_width	16	static
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:133:26:lv_area_get_height	16	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:110:20:lv_area_copy	16	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:123:26:lv_area_get_width	16	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:133:26:lv_area_get_height	16	static
 ../Drivers/lvgl/src/extra/layouts/grid/../flex/../../../core/lv_obj_style_gen.h:1:26:lv_obj_get_style_width	24	static
 ../Drivers/lvgl/src/extra/layouts/grid/../flex/../../../core/lv_obj_style_gen.h:19:26:lv_obj_get_style_height	24	static
 ../Drivers/lvgl/src/extra/layouts/grid/../flex/../../../core/lv_obj_style_gen.h:67:26:lv_obj_get_style_translate_x	24	static

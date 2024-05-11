@@ -22,10 +22,10 @@ Drivers/lvgl/src/font/lv_font_montserrat_16.o: \
  ../Drivers/lvgl/src/font/../../src/hal/../draw/../lv_conf_internal.h \
  ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/lv_style.h \
  ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/../font/lv_font.h \
- ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/../font/../lv_conf_internal.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
  ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/../font/lv_symbol_def.h \
- ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/../font/../misc/lv_area.h \
- c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
  ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/lv_color.h \
  ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/lv_assert.h \
@@ -152,7 +152,7 @@ Drivers/lvgl/src/font/lv_font_montserrat_16.o: \
  ../Drivers/lvgl/src/font/../../src/extra/libs/png/../../../lv_conf_internal.h \
  ../Drivers/lvgl/src/font/../../src/extra/libs/gif/lv_gif.h \
  ../Drivers/lvgl/src/font/../../src/extra/libs/gif/../../../lvgl.h \
- ../Drivers/lvgl/src/font/../../src/extra/libs/gif/../../../../lvgl.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/libs/qrcode/lv_qrcode.h \
  ../Drivers/lvgl/src/font/../../src/extra/libs/qrcode/../../../lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/libs/sjpg/lv_sjpg.h \
@@ -164,14 +164,14 @@ Drivers/lvgl/src/font/lv_font_montserrat_16.o: \
  ../Drivers/lvgl/src/font/../../src/extra/libs/ffmpeg/../../../lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/others/lv_others.h \
  ../Drivers/lvgl/src/font/../../src/extra/others/snapshot/lv_snapshot.h \
- ../Drivers/lvgl/src/font/../../src/extra/others/snapshot/../../../lv_conf_internal.h \
- ../Drivers/lvgl/src/font/../../src/extra/others/snapshot/../../../core/lv_obj.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj.h \
  ../Drivers/lvgl/src/font/../../src/extra/others/monkey/lv_monkey.h \
  ../Drivers/lvgl/src/font/../../src/extra/others/monkey/../../../lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/others/gridnav/lv_gridnav.h \
  ../Drivers/lvgl/src/font/../../src/extra/others/gridnav/../../../core/lv_obj.h \
  ../Drivers/lvgl/src/font/../../src/extra/others/fragment/lv_fragment.h \
- ../Drivers/lvgl/src/font/../../src/extra/others/fragment/../../../lv_conf_internal.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
  ../Drivers/lvgl/src/font/../../src/extra/others/imgfont/lv_imgfont.h \
  ../Drivers/lvgl/src/font/../../src/extra/others/imgfont/../../../lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/others/msg/lv_msg.h \
@@ -187,16 +187,16 @@ Drivers/lvgl/src/font/lv_font_montserrat_16.o: \
  ../Drivers/lvgl/src/font/../../src/extra/themes/basic/../../../core/lv_obj.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/lv_widgets.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/animimg/lv_animimg.h \
- ../Drivers/lvgl/src/font/../../src/extra/widgets/animimg/../../../lvgl.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/calendar/lv_calendar.h \
- ../Drivers/lvgl/src/font/../../src/extra/widgets/calendar/../../../widgets/lv_btnmatrix.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\widgets\lv_btnmatrix.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/calendar/lv_calendar_header_arrow.h \
- ../Drivers/lvgl/src/font/../../src/extra/widgets/calendar/../../../core/lv_obj.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/calendar/lv_calendar_header_dropdown.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/chart/lv_chart.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/chart/../../../lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/keyboard/lv_keyboard.h \
- ../Drivers/lvgl/src/font/../../src/extra/widgets/keyboard/../../../widgets/lv_btnmatrix.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\widgets\lv_btnmatrix.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/list/lv_list.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/list/../../../core/lv_obj.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/list/../../layouts/flex/lv_flex.h \
@@ -207,17 +207,17 @@ Drivers/lvgl/src/font/lv_font_montserrat_16.o: \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/meter/lv_meter.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/meter/../../../lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/spinbox/lv_spinbox.h \
- ../Drivers/lvgl/src/font/../../src/extra/widgets/spinbox/../../../lvgl.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/spinner/lv_spinner.h \
- ../Drivers/lvgl/src/font/../../src/extra/widgets/spinner/../../../lvgl.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/tabview/lv_tabview.h \
- ../Drivers/lvgl/src/font/../../src/extra/widgets/tabview/../../../lvgl.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/tileview/lv_tileview.h \
- ../Drivers/lvgl/src/font/../../src/extra/widgets/tileview/../../../core/lv_obj.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/win/lv_win.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/win/../../../lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/colorwheel/lv_colorwheel.h \
- ../Drivers/lvgl/src/font/../../src/extra/widgets/colorwheel/../../../lvgl.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/led/lv_led.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/led/../../../lvgl.h \
  ../Drivers/lvgl/src/font/../../src/extra/widgets/imgbtn/lv_imgbtn.h \
@@ -246,10 +246,10 @@ Drivers/lvgl/src/font/lv_font_montserrat_16.o: \
 ../Drivers/lvgl/src/font/../../src/hal/../draw/../lv_conf_internal.h:
 ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/lv_style.h:
 ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/../font/lv_font.h:
-../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/../font/../lv_conf_internal.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
 ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/../font/lv_symbol_def.h:
-../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/../font/../misc/lv_area.h:
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
 ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/lv_color.h:
 ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/font/../../src/hal/../draw/../misc/lv_assert.h:
@@ -376,7 +376,7 @@ c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_in
 ../Drivers/lvgl/src/font/../../src/extra/libs/png/../../../lv_conf_internal.h:
 ../Drivers/lvgl/src/font/../../src/extra/libs/gif/lv_gif.h:
 ../Drivers/lvgl/src/font/../../src/extra/libs/gif/../../../lvgl.h:
-../Drivers/lvgl/src/font/../../src/extra/libs/gif/../../../../lvgl.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/libs/qrcode/lv_qrcode.h:
 ../Drivers/lvgl/src/font/../../src/extra/libs/qrcode/../../../lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/libs/sjpg/lv_sjpg.h:
@@ -388,14 +388,14 @@ c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_in
 ../Drivers/lvgl/src/font/../../src/extra/libs/ffmpeg/../../../lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/others/lv_others.h:
 ../Drivers/lvgl/src/font/../../src/extra/others/snapshot/lv_snapshot.h:
-../Drivers/lvgl/src/font/../../src/extra/others/snapshot/../../../lv_conf_internal.h:
-../Drivers/lvgl/src/font/../../src/extra/others/snapshot/../../../core/lv_obj.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj.h:
 ../Drivers/lvgl/src/font/../../src/extra/others/monkey/lv_monkey.h:
 ../Drivers/lvgl/src/font/../../src/extra/others/monkey/../../../lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/others/gridnav/lv_gridnav.h:
 ../Drivers/lvgl/src/font/../../src/extra/others/gridnav/../../../core/lv_obj.h:
 ../Drivers/lvgl/src/font/../../src/extra/others/fragment/lv_fragment.h:
-../Drivers/lvgl/src/font/../../src/extra/others/fragment/../../../lv_conf_internal.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
 ../Drivers/lvgl/src/font/../../src/extra/others/imgfont/lv_imgfont.h:
 ../Drivers/lvgl/src/font/../../src/extra/others/imgfont/../../../lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/others/msg/lv_msg.h:
@@ -411,16 +411,16 @@ c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_in
 ../Drivers/lvgl/src/font/../../src/extra/themes/basic/../../../core/lv_obj.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/lv_widgets.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/animimg/lv_animimg.h:
-../Drivers/lvgl/src/font/../../src/extra/widgets/animimg/../../../lvgl.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/calendar/lv_calendar.h:
-../Drivers/lvgl/src/font/../../src/extra/widgets/calendar/../../../widgets/lv_btnmatrix.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\widgets\lv_btnmatrix.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/calendar/lv_calendar_header_arrow.h:
-../Drivers/lvgl/src/font/../../src/extra/widgets/calendar/../../../core/lv_obj.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/calendar/lv_calendar_header_dropdown.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/chart/lv_chart.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/chart/../../../lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/keyboard/lv_keyboard.h:
-../Drivers/lvgl/src/font/../../src/extra/widgets/keyboard/../../../widgets/lv_btnmatrix.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\widgets\lv_btnmatrix.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/list/lv_list.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/list/../../../core/lv_obj.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/list/../../layouts/flex/lv_flex.h:
@@ -431,17 +431,17 @@ c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_in
 ../Drivers/lvgl/src/font/../../src/extra/widgets/meter/lv_meter.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/meter/../../../lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/spinbox/lv_spinbox.h:
-../Drivers/lvgl/src/font/../../src/extra/widgets/spinbox/../../../lvgl.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/spinner/lv_spinner.h:
-../Drivers/lvgl/src/font/../../src/extra/widgets/spinner/../../../lvgl.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/tabview/lv_tabview.h:
-../Drivers/lvgl/src/font/../../src/extra/widgets/tabview/../../../lvgl.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/tileview/lv_tileview.h:
-../Drivers/lvgl/src/font/../../src/extra/widgets/tileview/../../../core/lv_obj.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/win/lv_win.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/win/../../../lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/colorwheel/lv_colorwheel.h:
-../Drivers/lvgl/src/font/../../src/extra/widgets/colorwheel/../../../lvgl.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/led/lv_led.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/led/../../../lvgl.h:
 ../Drivers/lvgl/src/font/../../src/extra/widgets/imgbtn/lv_imgbtn.h:

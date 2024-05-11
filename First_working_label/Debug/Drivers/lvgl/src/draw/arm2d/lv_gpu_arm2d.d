@@ -25,9 +25,9 @@ Drivers/lvgl/src/draw/arm2d/lv_gpu_arm2d.o: \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/lv_style.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/../font/lv_font.h \
- ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/../font/../lv_conf_internal.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/../font/lv_symbol_def.h \
- ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/../font/../misc/lv_area.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/lv_color.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/lv_area.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/lv_anim.h \
@@ -52,7 +52,7 @@ Drivers/lvgl/src/draw/arm2d/lv_gpu_arm2d.o: \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/sw/../../misc/lv_style.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/sw/lv_draw_sw_dither.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/sw/../../core/lv_obj_pos.h \
- ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/sw/../../core/../misc/lv_area.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/lv_draw_label.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/lv_bidi.h \
  ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/lv_draw_img.h \
@@ -120,9 +120,9 @@ Drivers/lvgl/src/draw/arm2d/lv_gpu_arm2d.o: \
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/lv_style.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/../font/lv_font.h:
-../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/../font/../lv_conf_internal.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/../font/lv_symbol_def.h:
-../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/../font/../misc/lv_area.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/lv_color.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/lv_area.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/lv_anim.h:
@@ -147,7 +147,7 @@ Drivers/lvgl/src/draw/arm2d/lv_gpu_arm2d.o: \
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/sw/../../misc/lv_style.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/sw/lv_draw_sw_dither.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/sw/../../core/lv_obj_pos.h:
-../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/sw/../../core/../misc/lv_area.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/lv_draw_label.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/../misc/lv_bidi.h:
 ../Drivers/lvgl/src/draw/arm2d/../../hal/../draw/lv_draw_img.h:

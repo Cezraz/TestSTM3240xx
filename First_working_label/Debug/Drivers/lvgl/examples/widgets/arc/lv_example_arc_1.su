@@ -1,4 +1,4 @@
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj_pos.h:199:20:lv_obj_center	16	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj_pos.h:199:20:lv_obj_center	16	static
 ../Drivers/lvgl/examples/widgets/arc/../../../src/core/lv_disp.h:182:26:lv_scr_act	8	static
 ../Drivers/lvgl/examples/widgets/arc/lv_example_arc_1.c:7:6:lv_example_arc_1	16	static
 ../Drivers/lvgl/examples/widgets/arc/lv_example_arc_1.c:24:13:value_changed_event_cb	24	static

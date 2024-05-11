@@ -19,19 +19,19 @@ Drivers/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.o: \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../misc/lv_timer.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../misc/../hal/lv_hal_tick.h \
- ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../misc/../hal/../lv_conf_internal.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/lv_hal_tick.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/lv_draw.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_style.h \
- ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/../font/lv_font.h \
- c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
- ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/../font/lv_symbol_def.h \
- c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\font\lv_font.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\font\lv_symbol_def.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_color.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_area.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_anim.h \
- ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/../lv_conf_internal.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_txt.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_printf.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_types.h \
@@ -52,7 +52,7 @@ Drivers/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.o: \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/sw/../../misc/lv_style.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/sw/lv_draw_sw_dither.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/sw/../../core/lv_obj_pos.h \
- c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/lv_draw_label.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_bidi.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/lv_draw_img.h \
@@ -114,19 +114,19 @@ Drivers/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.o: \
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../misc/lv_timer.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../misc/../hal/lv_hal_tick.h:
-../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../misc/../hal/../lv_conf_internal.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/lv_hal_tick.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/lv_draw.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_style.h:
-../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/../font/lv_font.h:
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
-../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/../font/lv_symbol_def.h:
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\font\lv_font.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\font\lv_symbol_def.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_color.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_area.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_anim.h:
-../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/../lv_conf_internal.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_txt.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_printf.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_types.h:
@@ -147,7 +147,7 @@ c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_ar
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/sw/../../misc/lv_style.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/sw/lv_draw_sw_dither.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/sw/../../core/lv_obj_pos.h:
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/lv_draw_label.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/../misc/lv_bidi.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../hal/../draw/lv_draw_img.h:

@@ -1,7 +1,0 @@
-stm324xg_eval_sram.c:85:9:BSP_SRAM_Init	2
-stm324xg_eval_sram.c:132:9:BSP_SRAM_ReadData	2
-stm324xg_eval_sram.c:151:9:BSP_SRAM_ReadData_DMA	2
-stm324xg_eval_sram.c:170:9:BSP_SRAM_WriteData	2
-stm324xg_eval_sram.c:189:9:BSP_SRAM_WriteData_DMA	2
-stm324xg_eval_sram.c:204:6:BSP_SRAM_DMA_IRQHandler	1
-stm324xg_eval_sram.c:212:13:BSP_SRAM_MspInit	1

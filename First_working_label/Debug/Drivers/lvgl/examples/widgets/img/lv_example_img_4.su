@@ -6,7 +6,7 @@
 ../Drivers/lvgl/examples/widgets/img/../../../src/misc/lv_anim.h:267:20:lv_anim_set_repeat_count	16	static
 ../Drivers/lvgl/examples/widgets/img/../../../src/hal/../draw/../misc/lv_color.h:588:26:lv_color_make	16	static
 ../Drivers/lvgl/examples/widgets/img/../../../src/hal/../draw/../misc/lv_color.h:693:26:lv_color_black	8	static
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj_pos.h:199:20:lv_obj_center	16	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\core\lv_obj_pos.h:199:20:lv_obj_center	16	static
 ../Drivers/lvgl/examples/widgets/img/../../../src/core/lv_disp.h:182:26:lv_scr_act	8	static
 ../Drivers/lvgl/examples/widgets/img/lv_example_img_4.c:4:13:ofs_y_anim	16	static
 ../Drivers/lvgl/examples/widgets/img/lv_example_img_4.c:12:6:lv_example_img_4	80	static

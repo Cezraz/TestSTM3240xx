@@ -1,4 +1,4 @@
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:110:20:lv_area_copy	16	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:110:20:lv_area_copy	16	static
 ../Drivers/lvgl/src/extra/widgets/imgbtn/../../../../src/core/lv_obj_style_gen.h:55:26:lv_obj_get_style_transform_width	24	static
 ../Drivers/lvgl/src/extra/widgets/imgbtn/../../../../src/core/lv_obj_style_gen.h:61:26:lv_obj_get_style_transform_height	24	static
 ../Drivers/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c:56:12:lv_imgbtn_create	24	static

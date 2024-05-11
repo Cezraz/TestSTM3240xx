@@ -1,4 +1,4 @@
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:286:26:lv_pct	16	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:286:26:lv_pct	16	static
 ../Drivers/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c:52:12:lv_calendar_header_arrow_create	24	static
 ../Drivers/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c:63:13:my_constructor	32	static
 ../Drivers/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c:101:13:month_event_cb	40	static

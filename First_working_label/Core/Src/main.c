@@ -51,24 +51,29 @@ int main(void) {
   /* Инициализация системных тактовых сеток */
 	SystemClock_Config();
 	HAL_Init();
+	BSP_SRAM_Init();
 	lv_init();
 	Display_Init();
-	BSP_SRAM_Init();
-
 	BSP_TS_Init(BSP_LCD_GetXSize(), BSP_LCD_GetYSize());
   /* Настройка и запуск задачи FreeRTOS */
 	xTaskCreate(main_task,            // Указатель на функцию, которую должна выполнять задача
               "Main_Task",          // Имя задачи
               configMINIMAL_STACK_SIZE*50, // Размер стека задачи
               NULL,                 // Указатель на параметры задачи
-              1, // Приоритет задачи
+			  2, // Приоритет задачи
               NULL);                // Указатель на хендлер задачи (если не нужен, можно передать NULL)
 
   /* Запуск планировщика FreeRTOS */
 	vTaskStartScheduler();
 
+
   /* Не должно никогда дойти до этой точки */
-	while (1) {}
+	while (1)
+	{
+		  lv_timer_handler();
+	    /* Задержка для предотвращения блокировки задачи */
+	    HAL_Delay(5); // Задержка в 5 миллисекунд
+	}
 }
 
 /* Функция, которую будет выполнять задача FreeRTOS */
@@ -131,7 +136,7 @@ void main_task(void *pvParameters) {
         lv_obj_center(btn1);
 
         lv_obj_t * label = lv_label_create(btn1);
-        lv_label_set_text(label, "Press me");
+        lv_label_set_text(label, "Press me_Task");
         lv_obj_center(label);
 
   while (1) {

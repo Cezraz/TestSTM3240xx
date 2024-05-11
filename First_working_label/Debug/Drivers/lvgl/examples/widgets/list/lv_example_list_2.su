@@ -1,4 +1,4 @@
-c:\users\admin\git\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:286:26:lv_pct	16	static
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:286:26:lv_pct	16	static
 ../Drivers/lvgl/examples/widgets/list/../../../src/core/lv_disp.h:182:26:lv_scr_act	8	static
 ../Drivers/lvgl/examples/widgets/list/../../../src/lv_api_map.h:55:20:lv_obj_move_foreground	24	static
 ../Drivers/lvgl/examples/widgets/list/../../../src/lv_api_map.h:67:20:lv_obj_move_background	16	static

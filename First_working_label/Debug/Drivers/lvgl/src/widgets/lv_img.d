@@ -48,7 +48,7 @@ Drivers/lvgl/src/widgets/lv_img.o: ../Drivers/lvgl/src/widgets/lv_img.c \
  ../Drivers/lvgl/src/widgets/../core/../hal/../draw/sw/../../misc/lv_style.h \
  ../Drivers/lvgl/src/widgets/../core/../hal/../draw/sw/lv_draw_sw_dither.h \
  ../Drivers/lvgl/src/widgets/../core/../hal/../draw/sw/../../core/lv_obj_pos.h \
- ../Drivers/lvgl/src/widgets/../core/../hal/../draw/sw/../../core/../misc/lv_area.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h \
  ../Drivers/lvgl/src/widgets/../core/../hal/../draw/lv_draw_label.h \
  ../Drivers/lvgl/src/widgets/../core/../hal/../draw/../misc/lv_bidi.h \
  ../Drivers/lvgl/src/widgets/../core/../hal/../draw/lv_draw_img.h \
@@ -143,7 +143,7 @@ Drivers/lvgl/src/widgets/lv_img.o: ../Drivers/lvgl/src/widgets/lv_img.c \
 ../Drivers/lvgl/src/widgets/../core/../hal/../draw/sw/../../misc/lv_style.h:
 ../Drivers/lvgl/src/widgets/../core/../hal/../draw/sw/lv_draw_sw_dither.h:
 ../Drivers/lvgl/src/widgets/../core/../hal/../draw/sw/../../core/lv_obj_pos.h:
-../Drivers/lvgl/src/widgets/../core/../hal/../draw/sw/../../core/../misc/lv_area.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\misc\lv_area.h:
 ../Drivers/lvgl/src/widgets/../core/../hal/../draw/lv_draw_label.h:
 ../Drivers/lvgl/src/widgets/../core/../hal/../draw/../misc/lv_bidi.h:
 ../Drivers/lvgl/src/widgets/../core/../hal/../draw/lv_draw_img.h:

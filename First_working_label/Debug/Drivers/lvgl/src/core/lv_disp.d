@@ -12,7 +12,7 @@ Drivers/lvgl/src/core/lv_disp.o: ../Drivers/lvgl/src/core/lv_disp.c \
  ../Drivers/lvgl/src/core/../hal/../draw/../misc/../font/../lv_conf_internal.h \
  ../Drivers/lvgl/src/core/../hal/../draw/../misc/../font/lv_symbol_def.h \
  ../Drivers/lvgl/src/core/../hal/../draw/../misc/../font/../misc/lv_area.h \
- ../Drivers/lvgl/src/core/../hal/../draw/../misc/../font/../misc/../lv_conf_internal.h \
+ c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h \
  ../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_color.h \
  ../Drivers/lvgl/src/core/../hal/../draw/../misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_assert.h \
@@ -98,7 +98,7 @@ Drivers/lvgl/src/core/lv_disp.o: ../Drivers/lvgl/src/core/lv_disp.c \
 ../Drivers/lvgl/src/core/../hal/../draw/../misc/../font/../lv_conf_internal.h:
 ../Drivers/lvgl/src/core/../hal/../draw/../misc/../font/lv_symbol_def.h:
 ../Drivers/lvgl/src/core/../hal/../draw/../misc/../font/../misc/lv_area.h:
-../Drivers/lvgl/src/core/../hal/../draw/../misc/../font/../misc/../lv_conf_internal.h:
+c:\users\user\teststm3240xx\first_working_label\drivers\lvgl\src\lv_conf_internal.h:
 ../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_color.h:
 ../Drivers/lvgl/src/core/../hal/../draw/../misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/core/../hal/../draw/../misc/lv_assert.h:
