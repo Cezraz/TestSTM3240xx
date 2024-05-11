@@ -155,7 +155,10 @@ static void my_disp_flush(lv_disp_drv_t *drv, const lv_area_t *area, lv_color_t 
   }
   lv_disp_flush_ready(drv);
 }
-
+/*static void disp_flush(lv_disp_drv_t * disp_drv, const lv_area_t * area, lv_color_t * color_p)
+ * {
+ *  LCD_Start_DMA_Transfer(area->x1,area ->y1,area->x2,area->y2,(u16*)color_p);
+ * }*/
 uint8_t Display_Init(void)
 {
 	  uint8_t ret = LCD_ERROR;

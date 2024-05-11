@@ -27,6 +27,7 @@
 #include "timers.h"
 #include "semphr.h"
 
+
 /** @addtogroup STM32F4xx_HAL_Examples
   * @{
   */
@@ -41,26 +42,30 @@
 /* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
 static void SystemClock_Config(void);
+xSemaphoreHandle MutexSemaphore;
 
 void main_task(void *pvParameters);
 
 int main(void) {
 
-	SystemCoreClockUpdate();
-	SysTick_Config(SystemCoreClock/1000);
+
+
   /* Инициализация системных тактовых сеток */
 	SystemClock_Config();
+	SystemCoreClockUpdate();
+	//SysTick_Config(SystemCoreClock/1000);
 	HAL_Init();
 	BSP_SRAM_Init();
 	lv_init();
 	Display_Init();
 	BSP_TS_Init(BSP_LCD_GetXSize(), BSP_LCD_GetYSize());
+	MutexSemaphore = xSemaphoreCreateMutex ();
   /* Настройка и запуск задачи FreeRTOS */
 	xTaskCreate(main_task,            // Указатель на функцию, которую должна выполнять задача
               "Main_Task",          // Имя задачи
-              configMINIMAL_STACK_SIZE*50, // Размер стека задачи
+              1000, // Размер стека задачи
               NULL,                 // Указатель на параметры задачи
-			  2, // Приоритет задачи
+			  4, // Приоритет задачи
               NULL);                // Указатель на хендлер задачи (если не нужен, можно передать NULL)
 
   /* Запуск планировщика FreeRTOS */
@@ -76,7 +81,17 @@ int main(void) {
 	}
 }
 
-/* Функция, которую будет выполнять задача FreeRTOS */
+/* Функция, которую будет выполнять задача FreeRTOS
+static void lvgl_handler ( void * pvParameters )
+{ for ( ;; )
+	{
+		xSemaphoreTake ( MutexSemaphore , portMAX_DELAY );
+		lv_task_handler();
+		xSemaphoreGive ( MutexSemaphore );
+		vTaskDelay ( pdMS_TO_TICKS ( 20 ));
+	}​
+}
+*/
 void main_task(void *pvParameters) {
   /* Неиспользуемый параметр, чтобы избежать предупреждения о неиспользовании */
   (void)pvParameters;
@@ -140,9 +155,10 @@ void main_task(void *pvParameters) {
         lv_obj_center(label);
 
   while (1) {
+	  xSemaphoreTake ( MutexSemaphore , portMAX_DELAY );
 	  lv_task_handler();
-    /* Задержка для предотвращения блокировки задачи */
-    vTaskDelay(pdMS_TO_TICKS(5)); // Задержка в 5 миллисекунд
+	  xSemaphoreGive ( MutexSemaphore );
+	  vTaskDelay ( pdMS_TO_TICKS ( 20 ));
   }
 }
 
