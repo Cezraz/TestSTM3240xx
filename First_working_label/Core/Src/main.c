@@ -51,9 +51,9 @@ int main(void) {
 
 
   /* Инициализация системных тактовых сеток */
-	SystemClock_Config();
+	//SystemClock_Config();
 	SystemCoreClockUpdate();
-	//SysTick_Config(SystemCoreClock/1000);
+	SysTick_Config(SystemCoreClock/1000);
 	HAL_Init();
 	BSP_SRAM_Init();
 	lv_init();
@@ -63,7 +63,7 @@ int main(void) {
   /* Настройка и запуск задачи FreeRTOS */
 	xTaskCreate(main_task,            // Указатель на функцию, которую должна выполнять задача
               "Main_Task",          // Имя задачи
-              1000, // Размер стека задачи
+             512, // Размер стека задачи
               NULL,                 // Указатель на параметры задачи
 			  4, // Приоритет задачи
               NULL);                // Указатель на хендлер задачи (если не нужен, можно передать NULL)
@@ -156,7 +156,7 @@ void main_task(void *pvParameters) {
 
   while (1) {
 	  xSemaphoreTake ( MutexSemaphore , portMAX_DELAY );
-	  lv_task_handler();
+	  //lv_task_handler();
 	  xSemaphoreGive ( MutexSemaphore );
 	  vTaskDelay ( pdMS_TO_TICKS ( 20 ));
   }
@@ -228,6 +228,7 @@ static void SystemClock_Config(void)
     /* Enable the Flash prefetch */
     __HAL_FLASH_PREFETCH_BUFFER_ENABLE();
   }
+  lv_task_handler();
 }
 
 #ifdef  USE_FULL_ASSERT
